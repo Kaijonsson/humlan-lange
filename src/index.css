@@ -1,0 +1,67 @@
+:root{
+  --mainBg: #edede8;
+  --secondBg: #e8d1c5;
+  --thirdBg: #fff1e6;
+  --fourthBg: #eddcd2; 
+  --fifthBg: #eeddd3;
+  --sixthBg: #f0efeb;
+  --mainTextColor: black;
+  --headerTextColor: rgba(0,0,0, 0.5);
+  --buttonBackground: rgba(0,0,0, 0.5);
+  --mainFontSize: 1.1em;
+  --headerFontSize: 1.4em;  
+  --fontWeight: 600;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:  var(--mainBg);
+  font-size: var(--mainFontSize);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.routerLink{
+  text-decoration: none;
+  color:var(--mainTextColor);
+  font-size: var(--headerFontSize);
+
+}
+.routerLink:hover{
+  color:var(--mainTextColor);
+
+}
+
+h1{
+  color: var(--headerTextColor)
+}
+p, input, button, textarea{
+  font-size: var(--mainFontSize);
+  color: var(--headerTextColor);
+  font-weight: var(--fontWeight);
+}
+
+button{
+  background-color: var(--buttonBackground);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  width: 100%;
+}
+
+.itemSeparator{
+  border: 1px solid var(--buttonBackground);
+  width: 100%;
+}
+
+.BG{
+  background-color: var(--fourthBg);
+}

@@ -1,0 +1,40 @@
+#mainMobileContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media only screen and (min-width: 430px) {
+
+    .pictureContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 80vh;
+        margin-bottom: 150px;   
+    }
+}
+
+.pictureContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;   
+}
+
+.images{
+    height: auto;
+    max-width: 85%;
+}
+
+
+#navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    width: 100%;
+}
+
+
