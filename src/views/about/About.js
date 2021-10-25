@@ -1,5 +1,7 @@
 import React from "react";
 import "./about.css";
+import "./tabletSpec.css";
+
 function About() {
   return (
     <div id="mainAboutContainer">
@@ -20,11 +22,11 @@ function About() {
         <img
           src="/pictures/ustallning2.jpg"
           alt="paintings"
-          className="collection"
+          className="collection mediaQSep"
         />
 
         <div className="itemSeparator" />
-        <div>
+        <div className="mediaQSep">
           <p>
             Want to get in touch? Send me an email and I'll get back to you as
             soon as i can!
@@ -40,7 +42,7 @@ function About() {
         <img
           src="/pictures/utstallning3.jpg"
           alt="paintings"
-          className="collection"
+          className="collection mediaQSep"
         />
       </div>
     </div>
