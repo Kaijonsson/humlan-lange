@@ -47,6 +47,10 @@ p, input, button, textarea{
   color: var(--headerTextColor);
   font-weight: var(--fontWeight);
 }
+th, td{
+  padding-left: 20px;
+  color: var(--headerTextColor)
+}
 
 button{
   background-color: var(--buttonBackground);

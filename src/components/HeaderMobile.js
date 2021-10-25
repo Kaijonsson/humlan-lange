@@ -3,7 +3,7 @@ import "./header.css";
 
 import { useHistory } from "react-router-dom";
 
-function Header() {
+function HeaderMobile() {
   const history = useHistory();
 
   return (
@@ -22,4 +22,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default HeaderMobile;

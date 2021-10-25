@@ -5,17 +5,6 @@
     align-items: center;
 }
 
-@media only screen and (min-width: 430px) {
-
-    .pictureContainer{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 80vh;
-        margin-bottom: 150px;   
-    }
-}
-
 .pictureContainer{
     display: flex;
     justify-content: center;

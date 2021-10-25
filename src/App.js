@@ -6,12 +6,12 @@ import { useMediaQuery } from "react-responsive";
 
 import HomeDesktop from "./views/home/HomeDesktop";
 import HomeMobile from "./views/home/HomeMobile";
-import Works from "./views/works/Works";
 import CV from "./views/cv/CV";
 import Contact from "./views/contact/Contact";
 import Footer from "./components/Footer";
-import Header from "./components/Header";
 import About from "./views/about/About";
+import HeaderMobile from "./components/HeaderMobile";
+import HeaderDesktop from "./components/HeaderDesktop";
 
 function App() {
   const desktop = useMediaQuery({ query: "(min-width: 769px)" });
@@ -20,11 +20,10 @@ function App() {
   return (
     <div id="App">
       <Router>
-        <Header />
+        {phoneOrTablet && <HeaderMobile />}
+        {desktop && <HeaderDesktop />}
+
         <Switch>
-          <Route path="/works">
-            <Works />
-          </Route>
           <Route path="/cv">
             <CV />
           </Route>
@@ -39,7 +38,7 @@ function App() {
             {phoneOrTablet && <HomeMobile />}
           </Route>
         </Switch>
-        <Footer />
+        {phoneOrTablet && <Footer />}
       </Router>
     </div>
   );

@@ -1,8 +1,0 @@
-#mainNavContainer{
-    width: 100%;
-}
-
-#linkContainer{
-    display: flex;
-    justify-content: space-evenly;
-}

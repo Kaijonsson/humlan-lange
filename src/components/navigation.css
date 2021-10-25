@@ -1,0 +1,13 @@
+#mainNavContainer{
+    width: 40%;
+}
+
+#linkContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navLinks:hover{
+    text-decoration: underline;
+}
