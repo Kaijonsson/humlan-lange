@@ -66,6 +66,11 @@ button{
   width: 100%;
 }
 
+.marginPadd{
+
+  margin-bottom: 50px;;
+  margin-top: 50px;;
+}
 .BG{
   background-color: var(--fourthBg);
 }

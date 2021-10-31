@@ -5,13 +5,24 @@
     flex-direction: column;
     padding-top: 60px;
 }
-
-
-.pictureContainer{
-
-    min-height: 80vh;
+#firstPictureContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
 }
 
+#textContainer{
+    width: 40%;
+}
+
+.pictureContainer{
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 150px;
+}
 
 .desktopImages{
     height: auto;

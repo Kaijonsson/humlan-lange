@@ -5,6 +5,7 @@ function CV() {
   return (
     <div id="mainCvContainer">
       <p>Exhibitions</p>
+      <div className="itemSeparator marginPadd" />
       <table>
         <tr>
           <th>
@@ -38,9 +39,9 @@ function CV() {
           <td>2018</td>
         </tr>
       </table>
-
+      <div className="itemSeparator marginPadd" />
       <p>A selection of public installations representation</p>
-
+      <div className="itemSeparator marginPadd" />
       <p>Statens Konstråd</p>
       <p>Stockholms Konstråd</p>
       <p>Västerås konstmuseum</p>

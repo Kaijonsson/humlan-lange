@@ -25,10 +25,12 @@ function App() {
 
         <Switch>
           <Route path="/cv">
-            <CV />
+            {desktop && <CV />}
+            {phoneOrTablet && <HomeMobile />}
           </Route>
           <Route path="/contact">
-            <Contact />
+            {desktop && <Contact />}
+            {phoneOrTablet && <HomeMobile />}
           </Route>
           <Route path="/about">
             <About />

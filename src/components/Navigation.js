@@ -4,19 +4,20 @@ import { Link } from "react-router-dom";
 
 import "./navigation.css";
 import "../index.css";
+import "./desktopspec.css";
 
 function Navigation() {
   return (
     <div id="mainNavContainer">
       <nav id="linkContainer">
-        <Link className="routerLink" to="/home">
+        <Link className="routerLink desktopSpec" to="/home">
           <p className="navLinks">Humlan Lange</p>
         </Link>
 
-        <Link className="routerLink" to="cv">
+        <Link className="routerLink desktopSpec" to="cv">
           <p className="navLinks">CV</p>
         </Link>
-        <Link className="routerLink" to="/contact">
+        <Link className="routerLink desktopSpec" to="/contact">
           <p className="navLinks">Contact</p>
         </Link>
       </nav>
