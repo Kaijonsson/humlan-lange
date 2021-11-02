@@ -1,16 +1,21 @@
 :root{
-  --mainBg: #edede8;
+  /* --mainBg: #edede8; */
+  --mainBG: #f4f4f1;
+  /*
+  #f4f4f1
+  */
+
   --secondBg: #e8d1c5;
   --thirdBg: #fff1e6;
   --fourthBg: #eddcd2; 
   --fifthBg: #eeddd3;
   --sixthBg: #f0efeb;
   --mainTextColor: black;
-  --headerTextColor: rgba(0,0,0, 0.5);
+  --headerTextColor: rgba(0,0,0, 0.6);
   --buttonBackground: rgba(0,0,0, 0.5);
-  --mainFontSize: 1.1em;
-  --headerFontSize: 1.4em;  
-  --fontWeight: 600;
+  --mainFontSize: 1em;
+  --headerFontSize: 1.3em;  
+  --fontWeight: 700;
 }
 body {
   margin: 0;

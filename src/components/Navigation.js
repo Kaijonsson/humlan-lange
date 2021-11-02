@@ -10,11 +10,11 @@ function Navigation() {
   return (
     <div id="mainNavContainer">
       <nav id="linkContainer">
-        <Link className="routerLink desktopSpec" to="/home">
+        <Link className="routerLink desktopSpec" to="/">
           <p className="navLinks">Humlan Lange</p>
         </Link>
 
-        <Link className="routerLink desktopSpec" to="cv">
+        <Link className="routerLink desktopSpec" to="/cv">
           <p className="navLinks">CV</p>
         </Link>
         <Link className="routerLink desktopSpec" to="/contact">

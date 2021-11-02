@@ -3,9 +3,6 @@ import "./mobile.css";
 import "../../index.css";
 import "./tabletSpec.css";
 
-// import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 function HomeMobile() {
   return (
     <div id="mainMobileContainer">
@@ -13,84 +10,84 @@ function HomeMobile() {
         <img
           className="images tabletSp"
           alt="painting"
-          src="/pictures/humlan3.jpg"
+          src="humlan-lange/pictures/humlan3.jpg"
         />
       </div>
       <div className="pictureContainer">
         <img
           className="images tabletSp"
           alt="painting"
-          src="/pictures/humlan2.jpg"
+          src="humlan-lange/pictures/humlan2.jpg"
         />
       </div>
       <div className="pictureContainer">
         <img
           className="images tabletSp"
           alt="painting"
-          src="/pictures/humlan1.jpg"
+          src="humlan-lange/pictures/humlan1.jpg"
         />
       </div>
       <div className="pictureContainer">
         <img
           className="images tabletSp"
           alt="painting"
-          src="/pictures/humlan4.jpg"
+          src="humlan-lange/pictures/humlan4.jpg"
         />
       </div>
       <div className="pictureContainer">
         <img
           className="images tabletSp"
           alt="painting"
-          src="/pictures/humlan5.jpg"
+          src="humlan-lange/pictures/humlan5.jpg"
         />
       </div>
       <div className="pictureContainer">
         <img
           className="images tabletSp"
           alt="painting"
-          src="/pictures/humlan6.jpg"
+          src="humlan-lange/pictures/humlan6.jpg"
         />
       </div>
       <div className="pictureContainer">
         <img
           className="images tabletSp"
           alt="painting"
-          src="/pictures/humlan7.jpg"
+          src="humlan-lange/pictures/humlan7.jpg"
         />
       </div>
       <div className="pictureContainer">
         <img
           className="images tabletSp"
           alt="painting"
-          src="/pictures/humlan9.jpg"
+          src="humlan-lange/pictures/humlan9.jpg"
         />
       </div>
       <div className="pictureContainer">
         <img
           className="images tabletSp"
           alt="painting"
-          src="/pictures/humlan10.jpg"
+          src="humlan-lange/pictures/humlan10.jpg"
         />
       </div>
       <div className="pictureContainer">
         <img
           className="images tabletSp"
           alt="painting"
-          src="/pictures/humlan11.jpg"
+          src="humlan-lange/pictures/humlan11.jpg"
         />
       </div>
       <div className="pictureContainer">
         <img
           className="images tabletSp"
           alt="painting"
-          src="/pictures/humlan12.jpg"
+          src="humlan-lange/pictures/humlan12.jpg"
         />
       </div>
       <div className="pictureContainer">
         <img
           className="images tabletSp"
           alt="painting"
-          src="/pictures/humlan13.jpg"
+          src="humlan-lange/pictures/humlan13.jpg"
         />
       </div>
     </div>

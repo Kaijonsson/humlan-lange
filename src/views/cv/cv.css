@@ -5,3 +5,14 @@
     justify-content: center;
     align-items: center;
 }
+
+#showOrHideButton{
+    width: 60%;
+}
+
+#buttonDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

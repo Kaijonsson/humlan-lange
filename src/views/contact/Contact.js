@@ -12,7 +12,11 @@ function Contact() {
   return (
     <div id="mainContactContainer">
       <div id="imgContainer">
-        <img src="/pictures/humlan8.jpg" alt="paintings" id="contactPic" />
+        <img
+          src="humlan-lange/pictures/humlan8.jpg"
+          alt="paintings"
+          id="contactPic"
+        />
       </div>
       <div id="contactForms">
         <p className="contactText">
