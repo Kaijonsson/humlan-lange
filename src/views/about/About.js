@@ -20,7 +20,7 @@ function About() {
 
       <div id="contactContainer">
         <img
-          src="humlan-lange/pictures/ustallning2.jpg"
+          src="pictures/ustallning2.jpg"
           alt="paintings"
           className="collection mediaQSep"
         />
@@ -40,7 +40,7 @@ function About() {
 
         <div className="itemSeparator" />
         <img
-          src="humlan-lange/pictures/utstallning3.jpg"
+          src="pictures/utstallning3.jpg"
           alt="paintings"
           className="collection mediaQSep"
         />
