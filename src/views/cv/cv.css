@@ -9,6 +9,9 @@
 #showOrHideButton{
     width: 60%;
 }
+#showOrHideButton:hover{
+    cursor: pointer;
+}
 
 #buttonDiv{
     display: flex;
