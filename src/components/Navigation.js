@@ -17,6 +17,9 @@ function Navigation() {
         <Link className="routerLink desktopSpec" to="/cv">
           <p className="navLinks">CV</p>
         </Link>
+        <Link className="routerLink desktopSpec" to="/texts">
+          <p className="navLinks">Texts</p>
+        </Link>
         <Link className="routerLink desktopSpec" to="/contact">
           <p className="navLinks">Contact</p>
         </Link>

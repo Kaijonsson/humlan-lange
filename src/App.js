@@ -12,6 +12,7 @@ import Footer from "./components/Footer";
 import About from "./views/about/About";
 import HeaderMobile from "./components/HeaderMobile";
 import HeaderDesktop from "./components/HeaderDesktop";
+import Texts from "./views/texts/Texts";
 
 function App() {
   const desktop = useMediaQuery({ query: "(min-width: 1001px)" });
@@ -34,9 +35,8 @@ function App() {
               {desktop && <Contact />}
               {phoneOrTablet && <HomeMobile />}
             </Route>
-            <Route path="/about">
-              <About />
-            </Route>
+            <Route path="/about">{phoneOrTablet && <About />}</Route>
+            <Route path="/texts">{desktop && <Texts />}</Route>
             <Route path="/">
               {desktop && <HomeDesktop />}
               {phoneOrTablet && <HomeMobile />}

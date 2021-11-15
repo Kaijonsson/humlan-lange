@@ -27,7 +27,7 @@ function About() {
 
         <div className="itemSeparator" />
         <div className="mediaQSep">
-          <p>
+          <p id="aboutContactText">
             Want to get in touch? Send me an email and I'll get back to you as
             soon as i can!
           </p>

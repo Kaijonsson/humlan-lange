@@ -5,17 +5,6 @@
     justify-content: center;
     align-items: center;
 }
-
-#imgContainer{
-    height: auto;
-    max-width: 40%;
-}
-
-#contactPic{
-    width: 100%;
-    border-radius: 5px;
-}
-
 .contactText{
     width: 50%;
 }

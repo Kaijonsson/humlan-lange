@@ -11,10 +11,6 @@ function Contact() {
   };
   return (
     <div id="mainContactContainer">
-      {/* <div id="imgContainer">
-        <img src="pictures/humlan8.jpg" alt="paintings" id="contactPic" />
-      </div> */}
-      {/* <div id="contactForms"> */}
       <p className="contactText">
         For any questions or enquiries, don't hesitate to send me a message and
         i'll get back to you as soon as i can.
