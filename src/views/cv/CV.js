@@ -13,15 +13,15 @@ function CV() {
   const buttonMessage = !showOrHide ? "Show full list" : "Hide full list";
 
   return (
-    <>
-      <button id="showOrHideButton" onClick={() => setShowOrHide(!showOrHide)}>
+    <div id="cvContainer">
+      <button onClick={() => setShowOrHide(!showOrHide)}>
         <div id="buttonDiv">
           {buttonMessage}
           <FontAwesomeIcon icon={!showOrHide ? faSortDown : faSortUp} />
         </div>
       </button>
       {!showOrHide ? <PartialEx /> : <FullExhib />}
-    </>
+    </div>
   );
 }
 

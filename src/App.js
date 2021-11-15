@@ -14,32 +14,35 @@ import HeaderMobile from "./components/HeaderMobile";
 import HeaderDesktop from "./components/HeaderDesktop";
 
 function App() {
-  const desktop = useMediaQuery({ query: "(min-width: 769px)" });
-  const phoneOrTablet = useMediaQuery({ query: "(max-width: 768px)" });
+  const desktop = useMediaQuery({ query: "(min-width: 1001px)" });
+  const phoneOrTablet = useMediaQuery({ query: "(max-width: 1000px)" });
 
   return (
     <div id="App">
       <Router>
-        {phoneOrTablet && <HeaderMobile />}
-        {desktop && <HeaderDesktop />}
-
-        <Switch>
-          <Route path="/cv">
-            {desktop && <CV />}
-            {phoneOrTablet && <HomeMobile />}
-          </Route>
-          <Route path="/contact">
-            {desktop && <Contact />}
-            {phoneOrTablet && <HomeMobile />}
-          </Route>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/">
-            {desktop && <HomeDesktop />}
-            {phoneOrTablet && <HomeMobile />}
-          </Route>
-        </Switch>
+        <div>
+          {phoneOrTablet && <HeaderMobile />}
+          {desktop && <HeaderDesktop />}
+        </div>
+        <div className="colContainer">
+          <Switch>
+            <Route path="/cv">
+              {desktop && <CV />}
+              {phoneOrTablet && <HomeMobile />}
+            </Route>
+            <Route path="/contact">
+              {desktop && <Contact />}
+              {phoneOrTablet && <HomeMobile />}
+            </Route>
+            <Route path="/about">
+              <About />
+            </Route>
+            <Route path="/">
+              {desktop && <HomeDesktop />}
+              {phoneOrTablet && <HomeMobile />}
+            </Route>
+          </Switch>
+        </div>
         {phoneOrTablet && <Footer />}
       </Router>
     </div>

@@ -1,16 +1,10 @@
-#mainCvContainer{
-    width: 60%;
+#cvContainer{
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-#showOrHideButton{
-    width: 60%;
-}
-#showOrHideButton:hover{
-    cursor: pointer;
+    padding-top: 50px;
 }
 
 #buttonDiv{
