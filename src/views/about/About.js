@@ -28,8 +28,9 @@ function About() {
         <div className="itemSeparator" />
         <div className="mediaQSep">
           <p id="aboutContactText">
-            Want to get in touch? Send me an email and I'll get back to you as
-            soon as i can!
+            Want to get in touch? Reach out via social media links bellow.
+            <br />
+            Or send me an email and I'll get back to you as soon as i can!
           </p>
           <form action="mailto:humlan@humlanlange.se" method="POST" id="formId">
             <button type="submit" id="inputButton">
