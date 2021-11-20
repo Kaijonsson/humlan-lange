@@ -1,6 +1,6 @@
 import React from "react";
 import "./mobile.css";
-import "../../index.css";
+import "../../../index.css";
 import "./tabletSpec.css";
 
 function HomeMobile() {

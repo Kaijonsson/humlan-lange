@@ -4,15 +4,15 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import { useMediaQuery } from "react-responsive";
 
-import HomeDesktop from "./views/home/HomeDesktop";
-import HomeMobile from "./views/home/HomeMobile";
-import CV from "./views/cv/CV";
-import Contact from "./views/contact/Contact";
-import Footer from "./components/Footer";
-import About from "./views/about/About";
-import HeaderMobile from "./components/HeaderMobile";
-import HeaderDesktop from "./components/HeaderDesktop";
-import Texts from "./views/texts/Texts";
+import HomeDesktop from "./desktop/views/home/HomeDesktop";
+import HomeMobile from "./mobileAndTablet/views/home/HomeMobile";
+import CV from "./desktop/views/cv/CV";
+import Contact from "./desktop/views/contact/Contact";
+import Footer from "./mobileAndTablet/components/Footer";
+import About from "./mobileAndTablet/views/about/About";
+import HeaderMobile from "./mobileAndTablet/components/HeaderMobile";
+import HeaderDesktop from "./desktop/components/HeaderDesktop";
+import Texts from "./desktop/views/texts/Texts";
 
 function App() {
   const desktop = useMediaQuery({ query: "(min-width: 1001px)" });

@@ -1,6 +1,6 @@
 import React from "react";
 import "./fullExh.css";
-import "../../../index.css";
+import "../../../../index.css";
 function FullExhib() {
   return (
     <div id="partialCvContainer">

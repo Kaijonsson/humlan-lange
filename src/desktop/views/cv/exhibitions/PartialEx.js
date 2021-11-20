@@ -1,6 +1,6 @@
 import React from "react";
 import "./partial.css";
-import "../../../index.css";
+import "../../../../index.css";
 
 function PartialEx() {
   return (

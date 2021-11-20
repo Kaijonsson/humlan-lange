@@ -1,7 +1,7 @@
 import React from "react";
-import "../../index.css";
+import "../../../index.css";
 import "./desktop.css";
-import "./tabletSpec.css";
+import "../../../mobileAndTablet/views/home/tabletSpec.css";
 
 function HomeDesktop() {
   return (

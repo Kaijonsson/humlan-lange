@@ -9,12 +9,15 @@ import { faSortUp, faSortDown } from "@fortawesome/free-solid-svg-icons";
 
 function CV() {
   const [showOrHide, setShowOrHide] = useState(false);
+  const buttonMessage = !showOrHide ? "Show full CV" : "Minimize";
 
-  const buttonMessage = !showOrHide ? "Show full list" : "Hide full list";
-
+  const showHideBtn = () => {
+    setShowOrHide(!showOrHide);
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  };
   return (
     <div id="cvContainer">
-      <button onClick={() => setShowOrHide(!showOrHide)}>
+      <button onClick={() => showHideBtn()} id="showHideBtn">
         <div id="buttonDiv">
           {buttonMessage}
           <FontAwesomeIcon icon={!showOrHide ? faSortDown : faSortUp} />

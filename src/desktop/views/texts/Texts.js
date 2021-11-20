@@ -1,6 +1,6 @@
 import React from "react";
 import "./texts.css";
-import "../../index.css";
+import "../../../index.css";
 
 function Texts() {
   return (

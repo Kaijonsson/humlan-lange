@@ -1,5 +1,5 @@
 import React from "react";
-import "./header.css";
+import "../../desktop/components/header.css";
 
 import { useHistory } from "react-router-dom";
 
