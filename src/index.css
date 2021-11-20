@@ -91,3 +91,6 @@ button:hover{
   color: var(--tableTitle);
   font-size: 1.1em;
 }
+.mainTitleColor{
+  color: var(--headerTextColor)
+}
