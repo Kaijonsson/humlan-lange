@@ -19,10 +19,10 @@ function PartialEx() {
           </tr>
           <tr>
             <td>
-              <p>Konsthall</p>
+              <p>Konsthallen Hishult</p>
             </td>
             <td>
-              <p>2019</p>
+              <p>2018</p>
             </td>
           </tr>
           <tr>

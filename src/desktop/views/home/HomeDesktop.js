@@ -10,8 +10,9 @@ function HomeDesktop() {
         <img
           className="desktopImages tabletSp"
           alt="painting"
-          src="pictures/humlan3.jpg"
+          src="pictures/humlan1.jpg"
         />
+
         <div id="textContainer">
           <p>
             "Our inability to achieve true knowledge of the external world
@@ -30,6 +31,20 @@ function HomeDesktop() {
         <img
           className="desktopImages tabletSp"
           alt="painting"
+          src="pictures/humlan16.jpg"
+        />
+      </div>
+      <div className="pictureContainer">
+        <img
+          className="desktopImages tabletSp"
+          alt="painting"
+          src="pictures/humlan17.jpg"
+        />
+      </div>
+      <div className="pictureContainer">
+        <img
+          className="desktopImages tabletSp"
+          alt="painting"
           src="pictures/humlan2.jpg"
         />
       </div>
@@ -37,7 +52,7 @@ function HomeDesktop() {
         <img
           className="desktopImages tabletSp"
           alt="painting"
-          src="pictures/humlan1.jpg"
+          src="pictures/humlan3.jpg"
         />
       </div>
       <div className="pictureContainer">
@@ -72,7 +87,7 @@ function HomeDesktop() {
         <img
           className="desktopImages tabletSp"
           alt="painting"
-          src="pictures/humlan9.jpg"
+          src="pictures/humlan8.jpg"
         />
       </div>
       <div className="pictureContainer">
@@ -101,6 +116,20 @@ function HomeDesktop() {
           className="desktopImages tabletSp"
           alt="painting"
           src="pictures/humlan13.jpg"
+        />
+      </div>
+      <div className="pictureContainer">
+        <img
+          className="desktopImages tabletSp"
+          alt="painting"
+          src="pictures/humlan14.jpg"
+        />
+      </div>
+      <div className="pictureContainer">
+        <img
+          className="desktopImages tabletSp"
+          alt="painting"
+          src="pictures/humlan15.jpg"
         />
       </div>
     </div>

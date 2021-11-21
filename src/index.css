@@ -94,3 +94,9 @@ button:hover{
 .mainTitleColor{
   color: var(--headerTextColor)
 }
+
+.pictureTitle{
+  color: black;
+  font-weight: 400;
+  font-size: 0.8em;
+}

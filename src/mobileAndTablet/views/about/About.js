@@ -20,7 +20,7 @@ function About() {
 
       <div id="contactContainer">
         <img
-          src="pictures/ustallning2.jpg"
+          src="pictures/utstallning.jpg"
           alt="paintings"
           className="collection mediaQSep"
         />
@@ -38,13 +38,6 @@ function About() {
             </button>
           </form>
         </div>
-
-        <div className="itemSeparator" />
-        <img
-          src="pictures/utstallning3.jpg"
-          alt="paintings"
-          className="collection mediaQSep"
-        />
       </div>
     </div>
   );

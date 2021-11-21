@@ -1,6 +1,11 @@
 import "./App.css";
 
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom";
 
 import { useMediaQuery } from "react-responsive";
 
@@ -36,7 +41,9 @@ function App() {
               {phoneOrTablet && <HomeMobile />}
             </Route>
             <Route path="/about">{phoneOrTablet && <About />}</Route>
-            <Route path="/texts">{desktop && <Texts />}</Route>
+            <Route path="/texts">
+              {desktop && <Texts />} {phoneOrTablet && <Redirect to="/" />}
+            </Route>
             <Route path="/">
               {desktop && <HomeDesktop />}
               {phoneOrTablet && <HomeMobile />}

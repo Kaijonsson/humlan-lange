@@ -86,7 +86,9 @@ function Texts() {
       <p>Erik jönsson</p>
       <div className="itemSeparator" />
       <p>
-        <p className="tableTitle">Galleri Gröna Paletten, Stockholm 2008</p>
+        <span className="tableTitle">
+          Galleri Gröna Paletten, Stockholm 2008
+        </span>
         Förundran inför världen är grundackordet i Humlan Langes bildvärld. Ett
         genuint intresse för människor driver henne till ständigt nya bilder.
         Hon avlyssnar samtalen och händelserna i sin omvärld, betraktar och

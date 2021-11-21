@@ -22,10 +22,10 @@ function FullExhib() {
           </tr>
           <tr>
             <td>
-              <p>Konsthall</p>
+              <p>Konsthall Hishult</p>
             </td>
             <td>
-              <p>2019</p>
+              <p>2018</p>
             </td>
           </tr>
           <tr>

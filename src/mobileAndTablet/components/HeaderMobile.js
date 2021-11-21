@@ -34,9 +34,8 @@ function HeaderMobile() {
         <FontAwesomeIcon
           icon={faSortDown}
           size="2x"
-          className="mainFontColor"
           onClick={() => setShowHide(!showHide)}
-          className="mainTitleColor"
+          className="mainTitleColor mainFontColor"
         />
       )}
     </div>
