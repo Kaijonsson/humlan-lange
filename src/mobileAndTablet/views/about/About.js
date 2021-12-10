@@ -2,7 +2,15 @@ import React from "react";
 import "./about.css";
 import "./tabletSpec.css";
 
+import { faInstagram, faFacebook } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 function About() {
+
+  const openInNewTab = (url) => {
+    const newWindow = window.open(url, "_blank", "noopener,noreferrer");
+    if (newWindow) newWindow.opener = null;
+  };
   return (
     <div id="mainAboutContainer">
       <div id="aboutContainer">
@@ -20,7 +28,7 @@ function About() {
 
       <div id="contactContainer">
         <img
-          src="pictures/utstallning.jpg"
+          src="pictures/paintings.jpg"
           alt="paintings"
           className="collection mediaQSep"
         />
@@ -37,6 +45,22 @@ function About() {
               humlan@humlanlange.se
             </button>
           </form>
+          <div id="contactIconContainer">
+            <FontAwesomeIcon
+              onClick={() =>
+                openInNewTab("https://www.instagram.com/humlanlange/?hl=en")
+              }
+              icon={faInstagram}
+              size="2x"
+              className="SMicons"
+            />
+            <FontAwesomeIcon
+              onClick={() => openInNewTab("https://www.facebook.com/humlan.lange")}
+              icon={faFacebook}
+              size="2x"
+              className="SMicons"
+            />
+          </div>
         </div>
       </div>
     </div>

@@ -58,3 +58,12 @@ input[type=text], select, textarea {
   #aboutContactText{
       text-align: center;
   }
+
+  #contactIconContainer {
+      margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+  }
