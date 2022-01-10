@@ -10,6 +10,7 @@
     background-color: rgba(237,237,232, 0.5);
     width: 100%;
     padding: 10px;
+    min-height: 10%;
 }
 .pageTitle{
     margin: 0;
