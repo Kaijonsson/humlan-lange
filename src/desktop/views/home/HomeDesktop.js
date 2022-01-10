@@ -2,136 +2,54 @@ import React from "react";
 import "../../../index.css";
 import "./desktop.css";
 import "../../../mobileAndTablet/views/home/tabletSpec.css";
+import Paintings from "../../../globalComps/Paintings";
 
 function HomeDesktop() {
   return (
     <div id="mainDesktopContainer">
-      <div id="firstPictureContainer">
-        <img
-          className="desktopImages tabletSp"
-          alt="painting"
-          src="pictures/humlan1.jpg"
-        />
+      {Paintings.paintings.map((element, index) => {
+        if (element.name === "temp1") {
+          return (
+            <div id="firstPictureContainer" key={index}>
+              <div style={{ height: "auto", width: "40%", }} >
 
-        <div id="textContainer">
-          <p>
-            "Our inability to achieve true knowledge of the external world
-            through the senses is a recurring theme in the work of Humlan Lange.
-            Her paintings depict human figures, mainly young girls, against
-            abstract backgrounds. Looming over the girls is a feeling of
-            alienation. They seem distant from each other and the mono- chrome
-            spaces they inhabit."
-            <br />
-            <br />
-            Erik Jönsson
-          </p>
-        </div>
-      </div>
-      <div className="pictureContainer">
-        <img
-          className="desktopImages tabletSp"
-          alt="painting"
-          src="pictures/humlan16.jpg"
-        />
-      </div>
-      <div className="pictureContainer">
-        <img
-          className="desktopImages tabletSp"
-          alt="painting"
-          src="pictures/humlan17.jpg"
-        />
-      </div>
-      <div className="pictureContainer">
-        <img
-          className="desktopImages tabletSp"
-          alt="painting"
-          src="pictures/humlan2.jpg"
-        />
-      </div>
-      <div className="pictureContainer">
-        <img
-          className="desktopImages tabletSp"
-          alt="painting"
-          src="pictures/humlan3.jpg"
-        />
-      </div>
-      <div className="pictureContainer">
-        <img
-          className="desktopImages tabletSp"
-          alt="painting"
-          src="pictures/humlan4.jpg"
-        />
-      </div>
-      <div className="pictureContainer">
-        <img
-          className="desktopImages tabletSp"
-          alt="painting"
-          src="pictures/humlan5.jpg"
-        />
-      </div>
-      <div className="pictureContainer">
-        <img
-          className="desktopImages tabletSp"
-          alt="painting"
-          src="pictures/humlan6.jpg"
-        />
-      </div>
-      <div className="pictureContainer">
-        <img
-          className="desktopImages tabletSp"
-          alt="painting"
-          src="pictures/humlan7.jpg"
-        />
-      </div>
-      <div className="pictureContainer">
-        <img
-          className="desktopImages tabletSp"
-          alt="painting"
-          src="pictures/humlan8.jpg"
-        />
-      </div>
-      <div className="pictureContainer">
-        <img
-          className="desktopImages tabletSp"
-          alt="painting"
-          src="pictures/humlan10.jpg"
-        />
-      </div>
-      <div className="pictureContainer">
-        <img
-          className="desktopImages tabletSp"
-          alt="painting"
-          src="pictures/humlan11.jpg"
-        />
-      </div>
-      <div className="pictureContainer">
-        <img
-          className="desktopImages tabletSp"
-          alt="painting"
-          src="pictures/humlan12.jpg"
-        />
-      </div>
-      <div className="pictureContainer">
-        <img
-          className="desktopImages tabletSp"
-          alt="painting"
-          src="pictures/humlan13.jpg"
-        />
-      </div>
-      <div className="pictureContainer">
-        <img
-          className="desktopImages tabletSp"
-          alt="painting"
-          src="pictures/humlan14.jpg"
-        />
-      </div>
-      <div className="pictureContainer">
-        <img
-          className="desktopImages tabletSp"
-          alt="painting"
-          src="pictures/humlan15.jpg"
-        />
-      </div>
+                <img
+                  className="desktopImages tabletSp"
+                  alt={element.name}
+                  src={element.path}
+                />
+                <p className="pictureTitle">{element.name}</p>
+                <div id="textContainer">
+                  <p>
+                    "Our inability to achieve true knowledge of the external world
+                    through the senses is a recurring theme in the work of Humlan
+                    Lange. Her paintings depict human figures, mainly young girls,
+                    against abstract backgrounds. Looming over the girls is a
+                    feeling of alienation. They seem distant from each other and
+                    the mono- chrome spaces they inhabit."
+                    <br />
+                    <br />
+                    Erik Jönsson
+                  </p>
+                </div>
+              </div>
+            </div>
+          );
+        } else {
+          return (
+            <div className="pictureContainer" key={index}>
+              <div className="imageAndTextContainer" >
+                <img
+                  className="desktopImages tabletSp"
+                  alt={element.name}
+                  src={element.path}
+                />
+                <p className="pictureTitle">{element.name}</p>
+              </div>
+            </div>
+          );
+        }
+      })}
     </div>
   );
 }

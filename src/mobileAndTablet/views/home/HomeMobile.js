@@ -2,122 +2,26 @@ import React from "react";
 import "./mobile.css";
 import "../../../index.css";
 import "./tabletSpec.css";
+import Paintings from "../../../globalComps/Paintings";
 
 function HomeMobile() {
   return (
+
     <div id="mainMobileContainer">
-      <div className="pictureContainer">
-        <img
-          className="images tabletSp"
-          alt="painting"
-          src="pictures/humlan1.jpg"
-        />
-      </div>
-      <div className="pictureContainer">
-        <img
-          className="images tabletSp"
-          alt="painting"
-          src="pictures/humlan16.jpg"
-        />
-      </div>
-      <div className="pictureContainer">
-        <img
-          className="images tabletSp"
-          alt="painting"
-          src="pictures/humlan17.jpg"
-        />
-      </div>
-      <div className="pictureContainer">
-        <img
-          className="images tabletSp"
-          alt="painting"
-          src="pictures/humlan2.jpg"
-        />
-      </div>
-      <div className="pictureContainer">
-        <img
-          className="images tabletSp"
-          alt="painting"
-          src="pictures/humlan3.jpg"
-        />
-      </div>
-      <div className="pictureContainer">
-        <img
-          className="images tabletSp"
-          alt="painting"
-          src="pictures/humlan4.jpg"
-        />
-      </div>
-      <div className="pictureContainer">
-        <img
-          className="images tabletSp"
-          alt="painting"
-          src="pictures/humlan5.jpg"
-        />
-      </div>
-      <div className="pictureContainer">
-        <img
-          className="images tabletSp"
-          alt="painting"
-          src="pictures/humlan6.jpg"
-        />
-      </div>
-      <div className="pictureContainer">
-        <img
-          className="images tabletSp"
-          alt="painting"
-          src="pictures/humlan7.jpg"
-        />
-      </div>
-      <div className="pictureContainer">
-        <img
-          className="images tabletSp"
-          alt="painting"
-          src="pictures/humlan8.jpg"
-        />
-      </div>
-      <div className="pictureContainer">
-        <img
-          className="images tabletSp"
-          alt="painting"
-          src="pictures/humlan10.jpg"
-        />
-      </div>
-      <div className="pictureContainer">
-        <img
-          className="images tabletSp"
-          alt="painting"
-          src="pictures/humlan11.jpg"
-        />
-      </div>
-      <div className="pictureContainer">
-        <img
-          className="images tabletSp"
-          alt="painting"
-          src="pictures/humlan12.jpg"
-        />
-      </div>
-      <div className="pictureContainer">
-        <img
-          className="images tabletSp"
-          alt="painting"
-          src="pictures/humlan13.jpg"
-        />
-      </div>
-      <div className="pictureContainer">
-        <img
-          className="images tabletSp"
-          alt="painting"
-          src="pictures/humlan14.jpg"
-        />
-      </div>
-      <div className="pictureContainer">
-        <img
-          className="images tabletSp"
-          alt="painting"
-          src="pictures/humlan15.jpg"
-        />
-      </div>
+      {Paintings.paintings.map((element, index) => {
+        return (
+          <div className="mobilePictureContainer" key={index}>
+            <div className="imageAndTextContainerMobile">
+              <img
+                className="images tabletSp"
+                alt={element.name}
+                src={element.path}
+              />
+              <p className="pictureTitle">{element.name}</p>
+            </div>
+          </div>
+        )
+      })}
     </div>
   );
 }

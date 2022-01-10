@@ -5,16 +5,16 @@
     align-items: center;
 }
 
-.pictureContainer{
+.mobilePictureContainer{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 80vh;   
+    min-height: 70vh;
 }
 
 .images{
     height: auto;
-    max-width: 85%;
+    max-width: 100%;
 }
 
 
@@ -26,4 +26,7 @@
     width: 100%;
 }
 
-
+.imageAndTextContainerMobile{
+    width: 90%;
+    height: auto;
+}
