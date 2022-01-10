@@ -1,35 +1,15 @@
-import { faInstagram, faFacebook } from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import "./footer.css";
+import { useHistory } from "react-router-dom";
+
 
 function Footer() {
-  const openInNewTab = (url) => {
-    const newWindow = window.open(url, "_blank", "noopener,noreferrer");
-    if (newWindow) newWindow.opener = null;
-  };
+  const history = useHistory()
 
   return (
     <div id="mainFooterContainer">
-      <FontAwesomeIcon
-        onClick={() =>
-          openInNewTab("https://www.instagram.com/humlanlange/?hl=en")
-        }
-        className="icons"
-        icon={faInstagram}
-        size="2x"
-      />
-      <div
-        style={{
-          width: "20px",
-        }}
-      ></div>
-      <FontAwesomeIcon
-        onClick={() => openInNewTab("https://www.facebook.com/humlan.lange")}
-        className="icons"
-        icon={faFacebook}
-        size="2x"
-      />
+      <h1 onClick={() => history.push("/home")} >Home</h1>
+      <h1 onClick={() => history.push("/about")}>About</h1>
     </div>
   );
 }
