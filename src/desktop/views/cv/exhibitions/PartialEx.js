@@ -19,6 +19,14 @@ function PartialEx() {
           </tr>
           <tr>
             <td>
+              <p>Galleri Utås</p>
+            </td>
+            <td>
+              <p>2020</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
               <p>Konsthallen Hishult</p>
             </td>
             <td>

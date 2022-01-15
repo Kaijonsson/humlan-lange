@@ -14,26 +14,10 @@ function FullExhib() {
           </tr>
           <tr>
             <td>
-              <p>Galleri Bellenius</p>
+              <p>SKF/Konstnäshuset/Konstnärsbaren</p>
             </td>
             <td>
-              <p>2020</p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <p>Konsthall Hishult</p>
-            </td>
-            <td>
-              <p>2018</p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <p>Swedish Embassy, Japan</p>
-            </td>
-            <td>
-              <p>2018</p>
+              <p>2019</p>
             </td>
           </tr>
           <tr>
@@ -162,6 +146,30 @@ function FullExhib() {
                 A selection of collaborative exhibitions
               </p>
             </td>
+            <tr>
+              <td>
+                <p>Galleri Bellenius</p>
+              </td>
+              <td>
+                <p>2020</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Galleri Utås</p>
+              </td>
+              <td>
+                <p>2020</p>
+              </td>
+            </tr>
+          </tr>
+          <tr>
+            <td>
+              <p>Konsthall Hishult</p>
+            </td>
+            <td>
+              <p>2018</p>
+            </td>
           </tr>
           <tr>
             <td>
@@ -197,7 +205,7 @@ function FullExhib() {
           </tr>
           <tr>
             <td>
-              <p>"Barnet i samtidskonsten"</p>
+              <p>"Barnet i samtidskonsten", Tyresö Konsthall</p>
             </td>
             <td>
               <p>2007</p>
