@@ -52,6 +52,53 @@ function PartialEx() {
         </tbody>
       </table>
       <div className="itemSeparator marginPadd" />
+      <p className="tableTitle">Teaching</p>
+      <table>
+        <tbody>
+          <tr>
+            <td>
+              <p>Konstskolan Stockholm</p>
+            </td>
+            <td>
+              <p>2022 -</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Norra Konstskolan, Jakobsbergs Folkhögskola</p>
+            </td>
+            <td>
+              <p>2005-2022</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Beckmans kvällsskola</p>
+            </td>
+            <td>
+              <p>2005-2018</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Beckmans Design Högskola</p>
+            </td>
+            <td>
+              <p>2000-2010</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Kungliga Tekniska Högskolan</p>
+            </td>
+            <td>
+              <p>2004-2006</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div className="itemSeparator marginPadd" />
       <p className="tableTitle">
         A selection of public installations & representation
       </p>
