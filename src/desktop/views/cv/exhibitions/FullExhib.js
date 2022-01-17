@@ -146,22 +146,23 @@ function FullExhib() {
                 A selection of collaborative exhibitions
               </p>
             </td>
-            <tr>
-              <td>
-                <p>Galleri Bellenius</p>
-              </td>
-              <td>
-                <p>2020</p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p>Galleri Utås</p>
-              </td>
-              <td>
-                <p>2020</p>
-              </td>
-            </tr>
+          </tr>
+
+          <tr>
+            <td>
+              <p>Galleri Bellenius</p>
+            </td>
+            <td>
+              <p>2020</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Galleri Utås</p>
+            </td>
+            <td>
+              <p>2020</p>
+            </td>
           </tr>
           <tr>
             <td>
@@ -413,7 +414,7 @@ function FullExhib() {
           </tr>
           <tr>
             <td>
-              <p>Nyckelviksskolan, alläm linje</p>
+              <p>Nyckelviksskolan, allmän linje</p>
             </td>
             <td>
               <p>1977-1978</p>
@@ -429,7 +430,7 @@ function FullExhib() {
           </tr>
           <tr>
             <td>
-              <p>Beklädnadstecknisk linje</p>
+              <p>Beklädnadsteknisk linje</p>
             </td>
             <td>
               <p>1974-76</p>
@@ -437,7 +438,7 @@ function FullExhib() {
           </tr>
           <tr>
             <td>
-              <p>Stockholms tillskärar Akademi</p>
+              <p>Stockholms tillskärarakademi</p>
             </td>
             <td>
               <p>1974</p>
@@ -446,6 +447,30 @@ function FullExhib() {
           <tr>
             <td>
               <p className="tableTitle">Scholarships</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Simone de Dardels fond</p>
+            </td>
+            <td>
+              <p>2021</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Werner Åkermans fond</p>
+            </td>
+            <td>
+              <p>2021</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>C.L Kinmansons fond</p>
+            </td>
+            <td>
+              <p>2021</p>
             </td>
           </tr>
           <tr>
@@ -522,7 +547,7 @@ function FullExhib() {
           </tr>
           <tr>
             <td>
-              <p>Laspis, bidrag för utställning, Japan</p>
+              <p>Iaspis, bidrag för utställning, Japan</p>
             </td>
             <td>
               <p>1997</p>
@@ -575,7 +600,7 @@ function FullExhib() {
           </tr>
           <tr>
             <td>
-              <p>beckmans kvällskola</p>
+              <p>Beckmans kvällskola</p>
             </td>
             <td>
               <p>2005-2016</p>

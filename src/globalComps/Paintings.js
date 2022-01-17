@@ -2,7 +2,9 @@ const Paintings = {
     "paintings": [
         {
             "path": "pictures/humlan1.jpg",
-            "name": "temp1"
+            // "name": "temp1"
+            "name": "Åtta personer i dimma",
+            // "measurements": "28x20cm"
         },
         {
             "path": "pictures/humlan2.jpg",

@@ -8,6 +8,7 @@ function HomeDesktop() {
   return (
     <div id="mainDesktopContainer">
       {Paintings.paintings.map((element, index) => {
+        console.log(element)
         if (element.name === "temp1") {
           return (
             <div id="firstPictureContainer" key={index}>
