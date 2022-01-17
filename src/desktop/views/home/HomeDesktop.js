@@ -1,25 +1,30 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "../../../index.css";
 import "./desktop.css";
 import "../../../mobileAndTablet/views/home/tabletSpec.css";
 import Paintings from "../../../globalComps/Paintings";
 
 function HomeDesktop() {
+  useEffect(() => {
+
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    
+  }, [])
+
   return (
     <div id="mainDesktopContainer">
       {Paintings.paintings.map((element, index) => {
-        console.log(element)
-        if (element.name === "temp1") {
+        if (element.name === "Åtta personer i dimma") {
           return (
             <div id="firstPictureContainer" key={index}>
-              <div style={{ height: "auto", width: "40%", }} >
-
+               <div style={{ height: "auto", width: "40%", }} >
                 <img
                   className="desktopImages tabletSp"
                   alt={element.name}
                   src={element.path}
                 />
-                <p className="pictureTitle">{element.name}</p>
+                <p className="pictureTitle">"{element.name}"</p>
+                <p className="pictureTitle">{element.measurements}</p>
                 <div id="textContainer">
                   <p>
                     "Our inability to achieve true knowledge of the external world
@@ -36,7 +41,9 @@ function HomeDesktop() {
               </div>
             </div>
           );
-        } else {
+        }else if(element.name === "grupp"){
+          return null
+        }else {
           return (
             <div className="pictureContainer" key={index}>
               <div className="imageAndTextContainer" >
@@ -45,7 +52,8 @@ function HomeDesktop() {
                   alt={element.name}
                   src={element.path}
                 />
-                <p className="pictureTitle">{element.name}</p>
+                <p className="pictureTitle">"{element.name}"</p>
+                <p className="pictureTitle">{element.measurements}</p>
               </div>
             </div>
           );

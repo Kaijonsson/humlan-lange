@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { faInstagram, faFacebook } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -9,6 +9,11 @@ function Contact() {
     const newWindow = window.open(url, "_blank", "noopener,noreferrer");
     if (newWindow) newWindow.opener = null;
   };
+  useEffect(() => {
+
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    
+  }, [])
   return (
     <div id="mainContactContainer">
       <p className="contactText">

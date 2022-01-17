@@ -9,18 +9,23 @@ function HomeMobile() {
 
     <div id="mainMobileContainer">
       {Paintings.paintings.map((element, index) => {
-        return (
-          <div className="mobilePictureContainer" key={index}>
-            <div className="imageAndTextContainerMobile">
-              <img
-                className="images tabletSp"
-                alt={element.name}
-                src={element.path}
-              />
-              <p className="pictureTitle">{element.name}</p>
+
+        if(element.name === "grupp"){
+          return null
+        }else {
+          return (
+            <div className="mobilePictureContainer" key={index}>
+              <div className="imageAndTextContainerMobile">
+                <img
+                  className="images tabletSp"
+                  alt={element.name}
+                  src={element.path}
+                />
+                <p className="pictureTitle">{element.name}</p>
+              </div>
             </div>
-          </div>
-        )
+          )
+        }
       })}
     </div>
   );
