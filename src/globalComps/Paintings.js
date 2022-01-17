@@ -2,85 +2,84 @@ const Paintings = {
     "paintings": [
         {
             "path": "pictures/humlan1.jpg",
-            // "name": "temp1"
             "name": "Åtta personer i dimma",
-            "measurements": "28x20cm"
+            "measurements": "28x20 cm"
         },
         {
             "path": "pictures/humlan2.jpg",
-            "name": "temp2",
-            "measurements": "28x20cm"
+            "name": "Händer med kedjor och spets",
+            "measurements": "60x52 cm"
 
         },
         {
             "path": "pictures/humlan3.jpg",
-            "name": "temp3",
-            "measurements": "28x20cm"
+            "name": "Va händer 4",
+            "measurements": "100x97 cm"
         },
         {
             "path": "pictures/humlan4.jpg",
-            "name": "temp4",
-            "measurements": "28x20cm"
+            "name": "Bakom gardinen",
+            "measurements": "60x52 cm"
         },
         {
             "path": "pictures/humlan5.jpg",
-            "name": "temp5",
-            "measurements": "28x20cm"
+            "name": "Om ett ting",
+            "measurements": "98x82 cm"
         },
         {
             "path": "pictures/humlan6.jpg",
-            "name": "temp5",
-            "measurements": "28x20cm"
+            "name": "Ett mjukt täcke",
+            "measurements": "28x20 cm"
         },
         {
             "path": "pictures/humlan7.jpg",
-            "name": "temp5",
-            "measurements": "28x20cm"
+            "name": "Systrar i månsken",
+            "measurements": "124x53 cm"
         },
         {
             "path": "pictures/humlan8.jpg",
-            "name": "temp5",
-            "measurements": "28x20cm"
+            "name": "Vi har peruk",
+            "measurements": "28x20 cm"
         },
         {
             "path": "pictures/humlan10.jpg",
-            "name": "temp5",
-            "measurements": "28x20cm"
+            "name": "Naken i gräset",
+            "measurements": "124x53 cm"
         },
         {
             "path": "pictures/humlan11.jpg",
-            "name": "temp5",
-            "measurements": "28x20cm"
+            "name": "Vi som väntar",
+            "measurements": "28x20 cm"
         },
         {
             "path": "pictures/humlan12.jpg",
-            "name": "temp5",
-            "measurements": "28x20cm"
+            "name": "Rött hav",
+            "measurements": "28x20 cm"
         },
         {
             "path": "pictures/humlan13.jpg",
-            "name": "temp5",
-            "measurements": "28x20cm"
+            "name": "Bröllop",
+            "measurements": "82x98 cm"
         },
         {
             "path": "pictures/humlan14.jpg",
-            "name": "temp5",
-            "measurements": "28x20cm"
+            "name": "Gökotta",
+            "measurements": "124x53 cm"
         },
         {
             "path": "pictures/humlan15.jpg",
-            "name": "temp5",
-            "measurements": "28x20cm"
+            "name": "Em strimma hopp",
+            "measurements": "64x59 cm"
         },
         {
             "path": "pictures/humlan16.jpg",
-            "name": "temp5",
-            "measurements": "28x20cm"
+            "name": "Va händer 1", 
+            "measurements": "100x97cm"
         },
         {
             "path": "pictures/humlan17.jpg",
-            "name": "temp5",
-            "measurements": "28x20cm"
+            "name": "Va händer 2",
+            "measurements": "100x97 cm"
         },
         {
             "path": "pictures/paintings.jpg",

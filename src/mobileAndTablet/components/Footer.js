@@ -15,8 +15,8 @@ function Footer() {
 
   return (
     <div id="mainFooterContainer">
-      <h1 className={className === "/" ? "orangeTitle" : "regular"} onClick={() => setTitleColor("/")} >Home</h1>
-      <h1 className={className === "/about" ? "orangeTitle" : "regular"} onClick={() => setTitleColor("/about")}>About</h1>
+      <h1 className={className === "/" ? "orangeTitle title" : "regular title"} onClick={() => setTitleColor("/")} >Home</h1>
+      <h1 className={className === "/about" ? "orangeTitle title" : "regular title"} onClick={() => setTitleColor("/about")}>About</h1>
     </div>
   );
 }

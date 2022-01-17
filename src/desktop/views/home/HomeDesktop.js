@@ -5,11 +5,11 @@ import "../../../mobileAndTablet/views/home/tabletSpec.css";
 import Paintings from "../../../globalComps/Paintings";
 
 function HomeDesktop() {
-  useEffect(() => {
+  // useEffect(() => {
 
-    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  //   window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
     
-  }, [])
+  // }, [])
 
   return (
     <div id="mainDesktopContainer">

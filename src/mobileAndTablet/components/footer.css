@@ -6,7 +6,6 @@
     align-items: center;
     background-color: rgba(237,237,232, 0.5);
     width: 100%;
-    min-height: 10%;
 }
 
 #iconContainer{
@@ -20,4 +19,8 @@
 
 .orangeTitle{
     color: rgba(238, 155, 0, 0.8);
+}
+
+.title {
+    font-size: 0.8em;
 }
