@@ -21,7 +21,8 @@ function HomeMobile() {
                   alt={element.name}
                   src={element.path}
                 />
-                <p className="pictureTitle">{element.name}</p>
+                <p className="pictureTitle">"{element.name}"</p>
+                <p className="pictureTitle">{element.measurements}</p>
               </div>
             </div>
           )
