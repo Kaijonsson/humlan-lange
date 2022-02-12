@@ -34,3 +34,9 @@
 .iconContainer:hover{
     cursor: pointer;
 }
+#contactInputButton{
+    text-decoration: none;
+}
+#contactFormId{
+    color:rgba(238, 155, 0, 0.8);
+}
