@@ -18,7 +18,6 @@ import About from "./mobileAndTablet/views/about/About";
 import HeaderMobile from "./mobileAndTablet/components/HeaderMobile";
 import HeaderDesktop from "./desktop/components/HeaderDesktop";
 import Texts from "./desktop/views/texts/Texts";
-import Cfooter from "./globalComps/Cfooter";
 
 
 function App() {
@@ -51,7 +50,6 @@ function App() {
               {phoneOrTablet && <HomeMobile />}
             </Route>
           </Switch>
-          <Cfooter/>
         </div>
         {phoneOrTablet && <Footer />}
       </Router>

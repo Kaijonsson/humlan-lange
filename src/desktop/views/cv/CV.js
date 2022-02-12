@@ -1,29 +1,20 @@
-import React, { useState } from "react";
+import React from "react";
 import "./cv.css";
-import FullExhib from "./exhibitions/FullExhib";
 import PartialEx from "./exhibitions/PartialEx";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-import { faSortUp, faSortDown } from "@fortawesome/free-solid-svg-icons";
+import { faFilePdf } from "@fortawesome/free-solid-svg-icons"
+import { Link } from "react-router-dom";
 
 function CV() {
-  const [showOrHide, setShowOrHide] = useState(false);
-  const buttonMessage = !showOrHide ? "Show full CV" : "Minimize";
 
-  const showHideBtn = () => {
-    setShowOrHide(!showOrHide);
-    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-  };
   return (
     <div id="cvContainer">
-      <button onClick={() => showHideBtn()} id="showHideBtn">
-        <div id="buttonDiv">
-          {buttonMessage}
-          <FontAwesomeIcon icon={!showOrHide ? faSortDown : faSortUp} />
-        </div>
-      </button>
-      {!showOrHide ? <PartialEx /> : <FullExhib />}
+      <div className="CvLink" >
+        <p>Download Full CV</p>
+        <Link to="/assets/CV.pdf" target="_blank" download><FontAwesomeIcon color="black" size="4x" icon={faFilePdf} /></Link>
+        <p className="subTitle">(Swedish)</p>
+      </div>
+      <PartialEx />
     </div>
   );
 }

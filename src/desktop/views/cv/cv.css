@@ -5,15 +5,16 @@
     justify-content: center;
     align-items: center;
 }
-
-#buttonDiv{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.CvLink:hover{
+    cursor: pointer;
 }
-#showHideBtn{
-    position: fixed;
-    top: 50px;
-    opacity: 0.9;
+.CvLink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.subTitle{
+    font-size: 1em;
+    opacity: 0.7;
 }
