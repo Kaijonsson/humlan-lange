@@ -1,8 +1,9 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import { faInstagram, faFacebook } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import "./contact.css";
+import { Link } from "react-router-dom";
 
 function Contact() {
   const openInNewTab = (url) => {
@@ -12,7 +13,7 @@ function Contact() {
   useEffect(() => {
 
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-    
+
   }, [])
   return (
     <div id="mainContactContainer">
@@ -20,15 +21,14 @@ function Contact() {
         For any questions or enquiries, don't hesitate to send me a message and
         i'll get back to you as soon as i can.
       </p>
-      <form
-        action="mailto:humlan@humlanlange.se"
-        method="POST"
-        id="contactFormId"
-      >
-        <button type="submit" id="contactInputButton">
+      <Link to='#' onClick={(e) => {
+        window.location = 'mailto:humlan@humlanlange.se';
+        e.preventDefault();
+      }} id="contactInputButton">
+        <p id="contactFormId">
           humlan@humlanlange.se
-        </button>
-      </form>
+        </p>
+      </Link>
       <p className="contactText">
         Look me up on Instagram and Facebook for most recent updates.
       </p>
