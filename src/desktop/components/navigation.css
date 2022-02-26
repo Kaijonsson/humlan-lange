@@ -12,8 +12,17 @@
 
 .navLinks{
     font-size: 0.8em;
+    transition: 0.4;
+    opacity: 1;
+}
+.navLinksOrange{
+    font-size: 0.8em;
+    transition: 0.4;
+    opacity: 1;
+    color: rgba(238, 155, 0, 0.6)
 }
 
 .navLinks:hover{
-    text-decoration: underline;
+    /* text-decoration: underline; */
+    color: rgba(238, 155, 0, 0.6)
 }
