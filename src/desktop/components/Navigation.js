@@ -1,16 +1,20 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 import { Link } from "react-router-dom";
 
 import "./navigation.css";
 import "../../index.css";
 import "./navDesktopspec.css";
-import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
-
+import { useHistory } from "react-router-dom";
 function Navigation() {
 
   const history = useHistory()
   const [className, setClassName] = useState('')
+
+  useEffect(() => {
+    setTitleColor(history.location.pathname)
+  }, [])
+
 
   const setTitleColor = (pathClicked) => {
     setClassName(pathClicked)
