@@ -24,9 +24,11 @@ function Navigation() {
   return (
     <div id="mainNavContainer">
       <nav id="linkContainer">
-        <h1 style={{ color: 'rgba(238, 155, 0, 0.8)' }} >Humlan Lange</h1>
-        <Link className="routerLink desktopSpec" to="/" onClick={() => setTitleColor('/')} >
-          <p className={className === '/' ? 'navLinksOrange' : 'navLinks'} >Works</p>
+        <Link className="routerLink desktopSpec" to='/' onClick={() => setTitleColor('/')} >
+          <h1 className={className === '/' ? 'navLinksOrange' : 'navLinks'} >Humlan Lange</h1>
+        </Link>
+        <Link className="routerLink desktopSpec" to="/works" onClick={() => setTitleColor('/works')} >
+          <p className={className === '/works' ? 'navLinksOrange' : 'navLinks'} >Works</p>
         </Link>
         <Link className="routerLink desktopSpec" to="/cv" onClick={() => setTitleColor('/cv')}>
           <p className={className === '/cv' ? 'navLinksOrange' : 'navLinks'}>CV</p>

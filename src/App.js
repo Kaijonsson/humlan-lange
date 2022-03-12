@@ -18,6 +18,7 @@ import About from "./mobileAndTablet/views/about/About";
 import HeaderMobile from "./mobileAndTablet/components/HeaderMobile";
 import HeaderDesktop from "./desktop/components/HeaderDesktop";
 import Texts from "./desktop/views/texts/Texts";
+import CurrentExhibitionDesktop from "./desktop/views/currentExhibitions/CurrentExhibitionDesktop";
 
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
   const phoneOrTablet = useMediaQuery({ query: "(max-width: 1000px)" });
 
   return (
-    <div id="App">
+    <div id="App" >
       <Router>
         <div>
           {phoneOrTablet && <HeaderMobile />}
@@ -33,6 +34,10 @@ function App() {
         </div>
         <div className="colContainer">
           <Switch>
+            <Route path="/works">
+              {desktop && <HomeDesktop />}
+              {phoneOrTablet && <HomeMobile />}
+            </Route>
             <Route path="/cv">
               {desktop && <CV />}
               {phoneOrTablet && <HomeMobile />}
@@ -46,8 +51,8 @@ function App() {
               {desktop && <Texts />} {phoneOrTablet && <Redirect to="/" />}
             </Route>
             <Route path="/">
-              {desktop && <HomeDesktop />}
-              {phoneOrTablet && <HomeMobile />}
+              {desktop && <CurrentExhibitionDesktop />}
+              {/* {phoneOrTablet && <HomeMobileCurrentExhibitionMobile />} */}
             </Route>
           </Switch>
         </div>
