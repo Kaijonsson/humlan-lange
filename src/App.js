@@ -29,14 +29,13 @@ function App() {
     <div id="App" >
       <Router>
         <div>
-          {phoneOrTablet && <HeaderMobile />}
           {desktop && <HeaderDesktop />}
+          {phoneOrTablet && <HeaderMobile />}
         </div>
         <div className="colContainer">
           <Switch>
             <Route path="/works">
               {desktop && <HomeDesktop />}
-              {phoneOrTablet && <HomeMobile />}
             </Route>
             <Route path="/cv">
               {desktop && <CV />}
@@ -51,6 +50,7 @@ function App() {
               {desktop && <Texts />} {phoneOrTablet && <Redirect to="/" />}
             </Route>
             <Route path="/">
+              {phoneOrTablet && <HomeMobile />}
               {desktop && <CurrentExhibitionDesktop />}
               {/* {phoneOrTablet && <HomeMobileCurrentExhibitionMobile />} */}
             </Route>

@@ -1,15 +1,10 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import "../../../index.css";
 import "./desktop.css";
 import "../../../mobileAndTablet/views/home/tabletSpec.css";
 import Paintings from "../../../globalComps/Paintings";
 
 function HomeDesktop() {
-  // useEffect(() => {
-
-  //   window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-    
-  // }, [])
 
   return (
     <div id="mainDesktopContainer">
@@ -17,7 +12,7 @@ function HomeDesktop() {
         if (element.name === "Åtta personer i dimma") {
           return (
             <div id="firstPictureContainer" key={index}>
-               <div style={{ height: "auto", width: "40%", }} >
+              <div style={{ height: "auto", width: "40%", }} >
                 <img
                   className="desktopImages tabletSp"
                   alt={element.name}
@@ -41,9 +36,9 @@ function HomeDesktop() {
               </div>
             </div>
           );
-        }else if(element.name === "grupp"){
+        } else if (element.name === "grupp") {
           return null
-        }else {
+        } else {
           return (
             <div className="pictureContainer" key={index}>
               <div className="imageAndTextContainer" >
