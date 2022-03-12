@@ -10,12 +10,13 @@ function Footer() {
 
   const setTitleColor = (pathClicked) => {
     setClassName(pathClicked)
+    history.push(pathClicked)
   }
 
   return (
     <div id="mainFooterContainer">
       <h1 className={className === "/" ? "orangeTitle title" : "regular title"} onClick={() => setTitleColor("/")} >Home</h1>
-      <h1 className={className === "/about" ? "orangeTitle title" : "regular title"} to='about' onClick={() => setTitleColor("/about")}>About</h1>
+      <h1 className={className === "/about" ? "orangeTitle title" : "regular title"} onClick={() => setTitleColor("/about")}>About</h1>
     </div>
   );
 }
