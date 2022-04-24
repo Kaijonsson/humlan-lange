@@ -1,6 +1,11 @@
-#partialCvContainer{
+#partialCvContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.articleLink:hover {
+    color: rgba(238, 155, 0, 0.8);
+    cursor: pointer;
 }

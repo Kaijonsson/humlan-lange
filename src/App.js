@@ -1,5 +1,5 @@
 import "./App.css";
-import React, { useEffect } from "react";
+import React from "react";
 import {
   BrowserRouter as Router,
   Switch,
@@ -18,7 +18,6 @@ import About from "./mobileAndTablet/views/about/About";
 import HeaderMobile from "./mobileAndTablet/components/HeaderMobile";
 import HeaderDesktop from "./desktop/components/HeaderDesktop";
 import Texts from "./desktop/views/texts/Texts";
-import CurrentExhibitionDesktop from "./desktop/views/currentExhibitions/CurrentExhibitionDesktop";
 
 
 function App() {
@@ -51,8 +50,7 @@ function App() {
             </Route>
             <Route path="/">
               {phoneOrTablet && <HomeMobile />}
-              {desktop && <CurrentExhibitionDesktop />}
-              {/* {phoneOrTablet && <HomeMobileCurrentExhibitionMobile />} */}
+              {desktop && <HomeDesktop />}
             </Route>
           </Switch>
         </div>
